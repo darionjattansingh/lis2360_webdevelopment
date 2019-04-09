@@ -96,3 +96,42 @@ iframe {
 	padding: 10px;
 	margin: 10px;
 }
+/* div tags ------------------------------------ */
+#container { 
+	width: 900px; 
+	margin: 0 auto; 
+	background-color: #003AB2; 
+	overflow: hidden; 
+}	
+#header { 
+	width: 100%; 
+	background-color: #94A3C2;
+	border-bottom: 12px solid #003AB2;
+}
+#content { 
+	width: 1200px;
+	float: left; 
+	padding-bottom: 20px;
+}
+#sidebar { 
+	width: 750px; 
+	float: right;
+	margin-top: 50px;
+	margin-right: 20px;
+	background: #94A3C2;
+	border: 1px solid #003AB2;
+}
+#sidebar p{
+	padding: 0;
+	float: right;
+}
+#footer { 
+	clear: both;
+	width: 100%; 
+	background-color: #94A3C2;
+	border-top: 1px solid #003AB2;
+}
+#footer p {
+	margin: 0;
+	padding: 40px;
+}
