@@ -1,0 +1,137 @@
+@charset "UTF-8";
+/* CSS Document created by Christy Chatmon, Spring 2019*/
+/* Darion Jattansingh; 03/26/19 */
+
+body {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 1.9em;
+	color: #FFB100;
+	background-color: #003AB2;
+	padding: 0 40px;
+}
+
+/* basic text styles ----------------------------  */
+p, li, td {
+	letter-spacing: 0.1em;
+	color: #94A3C2;
+}
+h1 {
+	font-size: 24px;
+	padding: 4px 0;
+	font-variant: small-caps;
+	letter-spacing: .5em;
+	line-height: 2em;
+}
+h2 {
+	font-size: 20px;
+	padding: 6px;
+	font-variant: small-caps;
+	letter-spacing: 0.5em;
+	
+}
+h3 {
+	font-size: 17px;
+	letter-spacing: 1em;
+	border-bottom-width: 2px;
+	border-bottom-style: inset;
+	border-bottom-color: #003AB2;
+	padding: 5px 0;
+	font-variant: small-caps;
+	font-style: italic;
+}
+
+/* link styles ---------------------------- */
+a:link {
+	font-weight: bold;
+	color: #FFB100;
+	text-decoration: none;
+}
+a:visited {
+	font-weight: bold;
+	color: #FFB100;
+	text-decoration: none;
+}
+a:hover {
+	color: #FFB100;
+}
+
+/* list styles ----------------------------- */
+ul li {
+	list-style-image: url(images/star.png);
+	margin-left: 17px;
+}
+ol {
+	margin-left: 15px;
+}
+
+/* table styles -------------------------------------- */
+table {
+	border: solid #FFB100 2px;
+}
+td {
+	padding: 4px;
+	border: solid #FFB100 2px;
+}
+th {
+	font-weight: bold;
+	background-color: #003AB2;
+	text-align: center;
+	padding: 4px;
+	border: solid #003AB2 2px;
+}
+
+/* border styles ------------------------------------ */
+hr {
+	border: solid #FFB100 3px;
+}
+
+img {
+	border: solid #003AB2 3px;
+
+}
+
+iframe {
+	border: solid #003AB2 3px;
+	padding: 10px;
+	margin: 10px;
+}
+/* div tags ------------------------------------ */
+#container { 
+	width: 900px; 
+	margin: 0 auto; 
+	background-color: #003AB2; 
+	overflow: hidden; 
+}	
+#header { 
+	width: 100%; 
+	background-color: #94A3C2;
+	border-bottom: 12px solid #003AB2;
+}
+#content { 
+	width: 1200px;
+	float: left; 
+	padding-bottom: 20px;
+}
+#sidebar { 
+	width: 750px; 
+	float: right;
+	margin-top: 50px;
+	margin-right: 20px;
+	background: #94A3C2;
+	border: 1px solid #003AB2;
+}
+#sidebar p{
+	padding: 0;
+	float: right;
+}
+#footer { 
+	clear: both;
+	width: 100%; 
+	background-color: #94A3C2;
+	border-top: 1px solid #003AB2;
+}
+#footer p {
+	margin: 0;
+	padding: 40px;
+}
