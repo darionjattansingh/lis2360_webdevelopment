@@ -29,7 +29,7 @@ h1 {
 	font-size: 14px;
 	font-variant: small-caps;
 	letter-spacing: .5em;
-	line-height: 1.5em;
+
 }
 h2 {
 	font-size: 20px;
@@ -113,8 +113,8 @@ iframe {
 }	
 #header { 
 	width: 100%; 
-	background-color: #94A3C2;
-	border-bottom: 12px solid #003AB2;
+	background-color: #fff;
+	border-bottom: 12px solid #94A3C2;
 }
 #content { 
 	width: 1200px;
@@ -127,7 +127,6 @@ iframe {
 	margin-top: 50px;
 	margin-right: 20px;
 	background: #94A3C2;
-	border: 0px solid #003AB2;
 }
 #sidebar p{
 	padding: 0;
@@ -155,11 +154,11 @@ iframe {
 /* Do noty dictate height for remaining sections since the content will dictate heights. */
 #overview {
 	padding: 40px 0 60px 0; /* top padding provides space for nav bar, bottom padding for asthetics */	
-   	background-color: #94A3C2;
+   	background-color: #FFB100;
 	color: #FFB100;
 }
 
-#quote {
+#info {
 	padding: 40px 0 60px 0;	
     background-color: #FFB100;;
 	color: #94A3C2;
